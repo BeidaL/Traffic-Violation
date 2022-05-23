@@ -1,0 +1,2 @@
+oc process -f template-create.yaml --param-file=template-create.env | oc create -f -
+oc process -f template-replace.yaml --param-file=template-replace.env | oc replace -f -
